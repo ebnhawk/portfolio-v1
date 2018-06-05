@@ -41,6 +41,10 @@ a:hover {
   margin-top: 10%;
 }
 
+#demo-button {
+  margin-right: 3vw;
+}
+
 #home-container {
   background-image: url('/smoke.jpg');
   background-repeat: no-repeat;
@@ -81,23 +85,27 @@ a:hover {
   z-index: 3;
 }
 
-#project-list-container {
-  margin-left: 10vw;
-  margin-right: 10vw;
+#project-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
 }
 
 #projects-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   padding-bottom: 10%;
   padding-top: 10%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #projects-title {
   padding-bottom: 1vh;
+  text-align: center;
 }
 
 #subtext {
@@ -116,12 +124,24 @@ a:hover {
   font-weight: bold;
 }
 
+.card-title {
+  margin-bottom: 5vh;
+}
+
 .gray {
   color: #62666d;
 }
 
 .green {
   color: #00887a;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inline-block;
 }
 
 .pink {
@@ -132,12 +152,24 @@ a:hover {
   cursor: pointer;
 }
 
-.project-title {
-  transition: color 0.5s ease;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
 }
 
-.project-title:hover {
-  color: #4286f4;
+.project-card {
+  box-shadow: 1px 1px 10px #000;
+}
+
+.project-img {
+  border: 2vw solid #000;
+  max-width: 100%;
+  max-height: 25vh;
+  margin-bottom: 3vh;
 }
 
 .spacer {
@@ -173,12 +205,12 @@ a:hover {
     margin-top: 5%;
   }
 
-  #home {
-    display: none;
+  #demo-button {
+    margin-right: 1vw;
   }
 
-  #landing-all {
-    font-size: 2vw;
+  #home {
+    display: none;
   }
 
   #nav {
@@ -193,9 +225,12 @@ a:hover {
     display: none;
   }
 
+  #project-buttons {
+    margin-top: 3vh;
+  }
+
   #projects-container {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5% 15%;
   }
 
   #projects-title {
@@ -204,5 +239,18 @@ a:hover {
 
   #subtext {
     margin-top: 2vh;
+  }
+
+  .card-title {
+    margin-bottom: 3vh;
+  }
+
+  .project-card {
+    flex: 20vw;
+    margin: 5vh 3vw;
+  }
+
+  .project-img {
+    border: 0.5vw solid #000;
   }
 }

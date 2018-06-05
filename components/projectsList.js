@@ -10,8 +10,9 @@ const projectsList = [
       'Trained a Watson Assistant chatbot and combined it with Tone Analyzer, then used API requests to deliver information to Redux store about the chatbot’s response, the user’s mood, and whether or not any user commands were identified',
       'Animated pet moods and command resonses using A-Frame'
     ],
-    demo: 'pixelpet.rocks',
-    github: 'https://github.com/PixelPetCo/pixel-pet'
+    demo: 'http://pixelpet.rocks',
+    github: 'https://github.com/PixelPetCo/pixel-pet',
+    img: 'pixelpet.png'
   },
   {
     id: 2,
@@ -24,7 +25,8 @@ const projectsList = [
     ],
     demo:
       'https://medium.com/@mollyfhanes/tutorial-internet-of-things-using-react-pubnub-and-johnny-five-482c7f2c1774',
-    github: 'https://github.com/ebnhawk/iot-pubnub-react'
+    github: 'https://github.com/ebnhawk/iot-pubnub-react',
+    img: 'IoT.png'
   },
   {
     id: 3,
@@ -35,7 +37,8 @@ const projectsList = [
       'Trained a new Clarifai model to recognize my dog, used Expo to access camera and camera roll, and displayed the results using React Native'
     ],
     demo: 'https://youtu.be/xSNl3wCVEk4',
-    github: 'https://github.com/ebnhawk/is-it-my-dog'
+    github: 'https://github.com/ebnhawk/is-it-my-dog',
+    img: 'dog.png'
   },
   {
     id: 4,
@@ -47,7 +50,9 @@ const projectsList = [
       'Designed product and category models in Sequelize',
       'Provided styling using CSS and React-Bootstrap'
     ],
-    github: 'https://github.com/grace-hopper-bazaar/bazaar-web'
+    demo: '',
+    github: 'https://github.com/grace-hopper-bazaar/bazaar-web',
+    img: 'chocolate.png'
   }
 ]
 
