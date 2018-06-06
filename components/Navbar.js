@@ -47,7 +47,7 @@ const Navbar = props => {
           </li>
         </ul>
       </div>
-      <Dropdown />
+      <Dropdown history={props.history} />
     </nav>
   )
 }

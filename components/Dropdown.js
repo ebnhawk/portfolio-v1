@@ -1,13 +1,19 @@
 import React, { Component } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Dropdown extends Component {
   constructor() {
     super()
     this.state = { open: false }
     this.handleClick = this.handleClick.bind(this)
+    this.handleLinkClick = this.handleLinkClick.bind(this)
   }
   handleClick() {
     this.setState(prevState => ({ open: !prevState.open }))
+  }
+  handleLinkClick(evt) {
+    const name = evt.target.name
+    this.props.history.push(`#${name}`)
   }
   render() {
     return (
@@ -21,15 +27,30 @@ class Dropdown extends Component {
             x-placement="bottom-start"
             id="menu"
           >
-            <a className="dropdown-item" href="#intro">
+            <AnchorLink
+              className="dropdown-item"
+              name="intro"
+              href="#intro"
+              onClick={this.handleLinkClick}
+            >
               Top
-            </a>
-            <a className="dropdown-item" href="#projects">
+            </AnchorLink>
+            <AnchorLink
+              className="dropdown-item"
+              name="projects"
+              href="#projects"
+              onClick={this.handleLinkClick}
+            >
               Projects
-            </a>
-            <a className="dropdown-item" href="#contact">
+            </AnchorLink>
+            <AnchorLink
+              className="dropdown-item"
+              name="contact"
+              href="#contact"
+              onClick={this.handleLinkClick}
+            >
               Contact
-            </a>
+            </AnchorLink>
           </div>
         ) : (
           <div />
