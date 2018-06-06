@@ -18,8 +18,18 @@ const Navbar = props => {
           <li className="nav-item">
             <AnchorLink
               className="nav-link"
-              name="projects-container"
-              href="#projects-container"
+              name="intro"
+              href="#intro"
+              onClick={handleClick}
+            >
+              Top
+            </AnchorLink>
+          </li>
+          <li className="nav-item">
+            <AnchorLink
+              className="nav-link"
+              name="projects"
+              href="#projects"
               onClick={handleClick}
             >
               Projects
@@ -28,21 +38,11 @@ const Navbar = props => {
           <li className="nav-item">
             <AnchorLink
               className="nav-link"
-              name="contact-container"
-              href="#contact-container"
+              name="contact"
+              href="#contact"
               onClick={handleClick}
             >
               Contact
-            </AnchorLink>
-          </li>
-          <li className="nav-item">
-            <AnchorLink
-              className="nav-link"
-              name="intro-container"
-              href="#intro-container"
-              onClick={handleClick}
-            >
-              About
             </AnchorLink>
           </li>
         </ul>

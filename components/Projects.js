@@ -11,7 +11,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div id="projects-container">
+      <div id="projects">
         <h1 id="projects-title" data-aos="fade-in" className="white display-4">
           Projects
         </h1>

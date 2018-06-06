@@ -28,7 +28,7 @@ a:hover {
   color: rgba(255, 255, 255, 1);
 }
 
-#contact-container {
+#contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,7 +53,7 @@ a:hover {
   background-attachment: fixed;
 }
 
-#intro-container {
+#intro {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -76,6 +76,12 @@ a:hover {
   margin-top: 7vh;
 }
 
+#menu {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+}
+
 #nav {
   background-color: rgba(0, 0, 0, 1);
   box-shadow: 0 0 0.5vw #000;
@@ -91,7 +97,7 @@ a:hover {
   margin-top: 5vh;
 }
 
-#projects-container {
+#projects {
   width: 100%;
   padding-bottom: 10%;
   padding-top: 10%;
@@ -126,6 +132,11 @@ a:hover {
 
 .card-title {
   margin-bottom: 5vh;
+}
+
+.dropdown-menu {
+  will-change: transform;
+  transform: translate3d(0px, 37px, 0px);
 }
 
 .gray {
@@ -195,7 +206,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   #arrow {
     display: inline-block;
     font-size: 3vw;
@@ -229,7 +240,7 @@ a:hover {
     margin-top: 3vh;
   }
 
-  #projects-container {
+  #projects {
     padding: 5% 15%;
   }
 

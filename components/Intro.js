@@ -6,7 +6,7 @@ const Intro = props => {
     props.history.push('#projects')
   }
   return (
-    <div className="animated fadeIn fade" id="intro-container">
+    <div className="animated fadeIn fade" id="intro">
       <h1 className="display-3 white" id="intro-title">
         Molly Hanes
       </h1>
@@ -14,7 +14,7 @@ const Intro = props => {
         Software Engineer
       </h2>
       <img src="/me.jpg" id="me" />
-      <AnchorLink href="#projects-container" onClick={handleClick}>
+      <AnchorLink href="#projects" onClick={handleClick}>
         <i
           className="fas fa-angle-double-down animated infinite pulse"
           id="arrow"
