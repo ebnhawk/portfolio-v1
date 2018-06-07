@@ -50,7 +50,7 @@ const projectsList = [
       'Designed product and category models in Sequelize',
       'Provided styling using CSS and React-Bootstrap'
     ],
-    demo: '',
+    demo: 'http://chocolate-bazaar.herokuapp.com/',
     github: 'https://github.com/grace-hopper-bazaar/bazaar-web',
     img: 'chocolate.png'
   }

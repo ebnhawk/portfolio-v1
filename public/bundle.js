@@ -767,7 +767,7 @@ var projectsList = [{
   desc: 'A mock ecommerce platform for artisanal chocolates.',
   tools: 'React, Redux, Sequelize, Express, Mocha, and Chai',
   contributions: ['Designed filter components allowing users to filter all products according to a variety of parameters, using Redux', 'Designed product and category models in Sequelize', 'Provided styling using CSS and React-Bootstrap'],
-  demo: '',
+  demo: 'http://chocolate-bazaar.herokuapp.com/',
   github: 'https://github.com/grace-hopper-bazaar/bazaar-web',
   img: 'chocolate.png'
 }];
