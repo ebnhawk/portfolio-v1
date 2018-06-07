@@ -29,7 +29,7 @@ class Projects extends Component {
                     <a href={project.demo} target="new">
                       <button
                         type="button"
-                        className="btn btn-primary btn-lg"
+                        className="btn btn-primary"
                         id="demo-button"
                       >
                         Demo
@@ -38,7 +38,7 @@ class Projects extends Component {
                     <a href={project.github} target="new">
                       <button
                         type="button"
-                        className="btn btn-primary btn-lg"
+                        className="btn btn-primary"
                         id="github-button"
                       >
                         Github
