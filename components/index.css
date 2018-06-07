@@ -40,6 +40,7 @@ a:hover {
 #contact-title {
   margin-top: 10vh;
   margin-bottom: 5vh;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 #demo-button {
@@ -80,6 +81,7 @@ a:hover {
   margin-top: 15vh;
   margin-left: 10vw;
   margin-right: 10vw;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 #me {
@@ -108,6 +110,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   margin-top: 5vh;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 #projects {
@@ -125,6 +128,7 @@ a:hover {
 #projects-title {
   padding-bottom: 1vh;
   text-align: center;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 #subtext {
@@ -143,13 +147,25 @@ a:hover {
   font-weight: bold;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  font-family: 'Raleway', sans-serif !important;
+}
+
 .card-title {
   margin-bottom: 5vh;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 .dropdown-menu {
   will-change: transform;
   transform: translate3d(0px, 37px, 0px);
+  font-family: 'Raleway', sans-serif !important;
 }
 
 .gray {
@@ -164,25 +180,12 @@ a:hover {
   display: none;
 }
 
-.visible {
-  display: inline-block;
-}
-
 .pink {
   color: #ffbeaa;
 }
 
 .point {
   cursor: pointer;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  max-width: 100%;
 }
 
 .project-card {
@@ -203,6 +206,10 @@ a:hover {
 
 .shadow {
   text-shadow: 2px 2px 3px #000;
+}
+
+.visible {
+  display: inline-block;
 }
 
 .white {
@@ -242,12 +249,14 @@ a:hover {
     height: 5vh;
   }
 
+  #nav-icon {
+    display: none;
+  }
+
   #nav-links {
     position: absolute;
     right: 2vw;
-  }
-  #nav-icon {
-    display: none;
+    font-family: 'Raleway', sans-serif !important;
   }
 
   #project-buttons {
@@ -264,6 +273,7 @@ a:hover {
 
   #subtext {
     margin-top: 2vh;
+    font-family: 'Raleway', sans-serif !important;
   }
 
   .card-title {
